@@ -37,6 +37,7 @@
     <link href="<?=base_url();?>assets/plugins/pickadate/themes/default.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/plugins/pickadate/themes/default.date.css" rel="stylesheet">
     <link href="<?=base_url();?>assets/plugins/pickadate/themes/default.time.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?=base_url();?>assets/images/junctionerplogo.png">
     <!-- END PAGE LEVEL STYLE -->
     <!-- fileupload css starts -->
 
