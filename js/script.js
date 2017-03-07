@@ -1,5 +1,5 @@
 
-var base_url="http://"+window.location.hostname+':'+location.port+"/geomapping/";
+var base_url="https://"+window.location.hostname;
 //alert(base_url);
 
 function showRoseIndia(paraId)

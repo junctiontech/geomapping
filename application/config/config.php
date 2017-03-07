@@ -15,15 +15,23 @@
 |
 */
 if($_SERVER['HTTP_HOST']=="localhost"){
-	$port=$_SERVER['SERVER_PORT'];
-$config['base_url']	= "http://localhost/geomapping/";
-}elseif($_SERVER['HTTP_HOST']=="www.geomapping.junctiontech.in"){
-$config['base_url']	= 'http://geomapping.junctiontech.in/';	
-}elseif($_SERVER['HTTP_HOST']=="geomapping.junctiontech.in"){
 	
-$config['base_url']	= 'http://geomapping.junctiontech.in/';	
+	$port=$_SERVER['SERVER_PORT'];
+	
+	$config['base_url']	= "http://localhost/geomapping/";
+
+}elseif($_SERVER['HTTP_HOST']=="www.geomap.junctiontech.in"){
+	
+	$config['base_url']	= 'https://geomap.junctiontech.in';	
+
+}elseif($_SERVER['HTTP_HOST']=="geomap.junctiontech.in"){
+	
+	$config['base_url']	= 'https://geomap.junctiontech.in';	
+
 }elseif($_SERVER['HTTP_HOST']=="192.168.1.151"){
+
 	$config['base_url']	= 'http://192.168.1.151/geomapping/';
+
 }
 
 /*
